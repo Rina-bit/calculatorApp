@@ -48,6 +48,13 @@ public class MathOperation {
 		System.out.println("Result = "+R);
 	}
 	
+	public void percentage()
+	{
+		R = X + Y / 200 * 100;
+		System.out.println("Percentage ");
+		return R;
+	}
+
 	public static void main(String[] args){
 		MathOperation a = new MathOperation();
 		a.init();
